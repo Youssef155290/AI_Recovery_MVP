@@ -1,0 +1,35 @@
+{
+    "name": "ai-billing-recovery",
+    "version": "1.0.0",
+    "description": "AI Billing and Leakage Recovery MVP",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@google/generative-ai": "^0.21.0",
+        "@supabase/supabase-js": "^2.48.1",
+        "dotenv": "^16.4.7",
+        "next": "^15.5.12",
+        "openai": "^4.82.0",
+        "react": "19.0.0",
+        "react-dom": "19.0.0",
+        "resend": "^4.1.1",
+        "stripe": "^17.6.0"
+    },
+    "devDependencies": {
+        "@robinson_ai_systems/vercel-mcp": "^1.0.1",
+        "@types/node": "^22.13.1",
+        "@types/react": "^19.0.8",
+        "@types/react-dom": "^19.0.3",
+        "postcss": "^8.5.1",
+        "tailwindcss": "^3.4.17",
+        "typescript": "^5.7.3"
+    }
+}
