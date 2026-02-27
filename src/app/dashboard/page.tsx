@@ -37,7 +37,7 @@ const ERROR_BADGE: Record<string, { bg: string; label: string }> = {
 export default async function DashboardPage({
     searchParams,
 }: {
-    searchParams: { revenue?: string; plan?: string; country?: string; search?: string; status?: string };
+    searchParams: Promise<{ revenue?: string; plan?: string; country?: string; search?: string; status?: string }>;
 }) {
     const params = await searchParams;
     const { plan, country, search, status: statusFilter } = params;

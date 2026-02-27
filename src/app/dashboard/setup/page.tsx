@@ -33,8 +33,8 @@ export default function SetupPage() {
                             )}
                             <div className="flex items-center gap-2.5">
                                 <div className={`w-10 h-10 rounded-xl text-sm font-bold flex items-center justify-center transition-all ${step.active
-                                        ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-200/60'
-                                        : 'bg-slate-100 text-slate-400 border border-slate-200'
+                                    ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-200/60'
+                                    : 'bg-slate-100 text-slate-400 border border-slate-200'
                                     }`}>{step.num}</div>
                                 <span className={`text-sm font-semibold ${step.active ? 'text-indigo-700' : 'text-slate-400'}`}>{step.label}</span>
                             </div>

@@ -93,7 +93,7 @@ export default function DashboardFilters() {
                     {/* Filters */}
                     <div className="flex items-center gap-2">
                         <select value={status} onChange={(e) => { setStatus(e.target.value); apply({ status: e.target.value }); }} className={selectClass}>
-                            <option>All Status</option>
+                            <option value="All">All Status</option>
                             <option value="unresolved">⚠️ Unresolved</option>
                             <option value="recovered">✅ Recovered</option>
                         </select>

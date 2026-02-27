@@ -190,7 +190,7 @@ export default function SimulationForm() {
                             <div className="w-6 h-6 rounded-full bg-rose-100 flex items-center justify-center text-xs">⚠️</div>
                             <span>Simulation Failed</span>
                         </div>
-                        <p className="text-rose-600/80 text-[11px] font-medium leading-relaxed pl-8">Check terminal logs. Ensure your OpenAI and Resend API keys are correctly configured in .env.local.</p>
+                        <p className="text-rose-600/80 text-[11px] font-medium leading-relaxed pl-8">Check terminal logs. Ensure your OpenRouter and Resend API keys are correctly configured in .env.local.</p>
                     </div>
                 )}
 
